@@ -30,11 +30,11 @@ import {
 } from "./utils/quizHelpers";
 
 const FALLBACK_ERROR_MESSAGE =
-  "No pudimos cargar esta parte de la aplicacion. Intenta reiniciar.";
+  "No pudimos cargar esta parte de la aplicación. Intenta reiniciar.";
 const LEVEL_TITLES: Record<QuizDifficulty, string> = {
-  basic: "Nivel facil",
+  basic: "Nivel fácil",
   intermediate: "Nivel medio",
-  advanced: "Nivel dificil",
+  advanced: "Nivel difícil",
 };
 const LEVEL_ORDER: QuizDifficulty[] = ["basic", "intermediate", "advanced"];
 
@@ -204,7 +204,7 @@ export default function App() {
     const selectedOption = currentQuestion.options.find((option) => option.id === optionId);
 
     if (!selectedOption) {
-      setStorageError("La opcion seleccionada no existe para este desafio.");
+      setStorageError("La opción seleccionada no existe para este desafío.");
       return;
     }
 
@@ -237,7 +237,7 @@ export default function App() {
 
   const goToNextQuestion = (): void => {
     if (!answered) {
-      setStorageError("Primero debes responder el desafio actual.");
+      setStorageError("Primero debes responder el desafío actual.");
       return;
     }
 
@@ -380,7 +380,7 @@ export default function App() {
               </View>
             </View>
             <Text style={styles.appName}>No Caigas</Text>
-            <Text style={styles.appTagline}>Elige la accion mas segura.</Text>
+            <Text style={styles.appTagline}>Elige la acción más segura.</Text>
           </View>
         ) : null}
         <View style={[styles.contentCard, quizStatus === "welcome" ? styles.welcomeContentCard : styles.quizContentCard]}>

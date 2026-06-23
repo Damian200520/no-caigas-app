@@ -13,7 +13,7 @@ export const FeedbackCard = ({
   onNext,
 }: FeedbackCardProps) => {
   const title = isCorrect ? "Respuesta correcta" : "Respuesta incorrecta";
-  const buttonText = isLastQuestion ? "Ver resultado" : "Siguiente desafio";
+  const buttonText = isLastQuestion ? "Ver resultado" : "Siguiente desafío";
   const fadeAnimation = useRef(new Animated.Value(0)).current;
   const slideAnimation = useRef(new Animated.Value(18)).current;
 
@@ -60,7 +60,7 @@ export const FeedbackCard = ({
         <Text style={styles.explanation}>{explanation}</Text>
       </View>
       <View style={styles.redFlagsBox}>
-        <Text style={styles.redFlagsTitle}>Senales de alerta detectadas</Text>
+        <Text style={styles.redFlagsTitle}>Señales de alerta detectadas</Text>
         {redFlags.map((redFlag) => (
           <View key={redFlag} style={styles.redFlagItem}>
             <View style={styles.redFlagDot} />

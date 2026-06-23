@@ -79,7 +79,7 @@ export const WelcomeScreen = ({
         <View style={styles.rewardTextGroup}>
           <Text style={styles.rewardTitle}>Sube de nivel</Text>
           <Text style={styles.rewardDescription}>
-            Completa 3 fases: facil, medio y dificil. Cada respuesta desbloquea una explicacion util.
+            Completa 3 fases: fácil, medio y difícil. Cada respuesta desbloquea una explicación útil.
           </Text>
         </View>
         <View style={styles.rewardCoinStack}>
@@ -90,7 +90,7 @@ export const WelcomeScreen = ({
 
       <View style={styles.recentHeader}>
         <Text style={styles.sectionTitle}>Quiz principal</Text>
-        <Text style={styles.totalText}>{`${totalCategories} categorias`}</Text>
+        <Text style={styles.totalText}>{`${totalCategories} categorías`}</Text>
       </View>
 
       <View style={styles.mainQuizCard}>
@@ -100,7 +100,7 @@ export const WelcomeScreen = ({
         <View style={styles.mainQuizTextGroup}>
           <Text style={styles.mainQuizTitle}>No Caigas</Text>
           <Text style={styles.mainQuizDescription}>
-            {`${totalQuestions} desafios sobre estafas, phishing y seguridad digital.`}
+            {`${totalQuestions} desafíos sobre estafas, phishing y seguridad digital.`}
           </Text>
         </View>
       </View>
@@ -139,10 +139,10 @@ export const WelcomeScreen = ({
           onPressIn={() => animateButton(0.98)}
           onPressOut={() => animateButton(1)}
           accessibilityRole="button"
-          accessibilityLabel="Comenzar desafio"
+          accessibilityLabel="Comenzar desafío"
           accessibilityHint="Inicia el quiz educativo de seguridad digital"
         >
-          <Text style={styles.startButtonText}>Comenzar desafio</Text>
+          <Text style={styles.startButtonText}>Comenzar desafío</Text>
         </Pressable>
       </Animated.View>
     </View>

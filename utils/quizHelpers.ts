@@ -12,7 +12,7 @@ export const getSecurityLevel = (percentage: number): SecurityLevel => {
   if (percentage >= 90) {
     return {
       title: "Guardian Digital",
-      message: "Excelente. Reconoces muy bien las senales de una estafa.",
+      message: "Excelente. Reconoces muy bien las señales de una estafa.",
     };
   }
 
@@ -32,7 +32,7 @@ export const getSecurityLevel = (percentage: number): SecurityLevel => {
 
   return {
     title: "Alerta de Seguridad",
-    message: "Necesitas aprender mas antes de confiar en mensajes y enlaces.",
+    message: "Necesitas aprender más antes de confiar en mensajes y enlaces.",
   };
 };
 

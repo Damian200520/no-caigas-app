@@ -39,9 +39,9 @@ export const QuizProgress = ({
     inputRange: [0, 100],
     outputRange: ["0%", "100%"],
   });
-  const isBasicLevel = currentLevelTitle === "Nivel facil";
+  const isBasicLevel = currentLevelTitle === "Nivel fácil";
   const isMediumLevel = currentLevelTitle === "Nivel medio";
-  const isAdvancedLevel = currentLevelTitle === "Nivel dificil";
+  const isAdvancedLevel = currentLevelTitle === "Nivel difícil";
 
   return (
     <View style={styles.container}>

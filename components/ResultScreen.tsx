@@ -14,7 +14,7 @@ export const ResultScreen = ({
 }: ResultScreenProps) => {
   const percentage = calculatePercentage(score, totalQuestions);
   const securityLevel = getSecurityLevel(percentage);
-  const scoreMessage = `Respondiste correctamente ${score} de ${totalQuestions} desafios.`;
+  const scoreMessage = `Respondiste correctamente ${score} de ${totalQuestions} desafíos.`;
   const scaleAnimation = useRef(new Animated.Value(0.94)).current;
   const fadeAnimation = useRef(new Animated.Value(0)).current;
 

@@ -39,7 +39,7 @@ const getCategoryVisual = (category: string): { label: string; detail: string; c
     return { label: "ID", detail: "Cuida tus accesos", color: COLORS.appMint };
   }
 
-  return { label: "!", detail: "Detecta la senal de alerta", color: COLORS.appOrange };
+    return { label: "!", detail: "Detecta la señal de alerta", color: COLORS.appOrange };
 };
 
 export const QuestionCard = ({
@@ -91,8 +91,8 @@ export const QuestionCard = ({
       </View>
       <View style={styles.answerHeader} accessibilityLabel={`Seleccion actual: ${selectedOptionText}`}>
         <View>
-          <Text style={styles.answerTitle}>Que harias?</Text>
-          <Text style={styles.helperText}>Elige la accion mas segura.</Text>
+          <Text style={styles.answerTitle}>¿Qué harías?</Text>
+          <Text style={styles.helperText}>Elige la acción más segura.</Text>
         </View>
         <Text style={styles.optionCount}>4 opciones</Text>
       </View>

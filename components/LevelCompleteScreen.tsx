@@ -28,7 +28,7 @@ export const LevelCompleteScreen = ({
       <View style={styles.infoCard}>
         <Text style={styles.infoTitle}>Buen avance</Text>
         <Text style={styles.infoText}>
-          Ya completaste esta ronda. El siguiente bloque sube la dificultad y presenta casos con mas contexto.
+          Ya completaste esta ronda. El siguiente bloque sube la dificultad y presenta casos con más contexto.
         </Text>
       </View>
 
